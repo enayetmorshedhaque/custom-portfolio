@@ -27,13 +27,16 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 #owner-name{
     color: orange;
 }
 
-.about-owner{
+.about-owner, .about-dream{
     color: dimgray;
-    text-align: justify;
 }
 
 .owner-image{
@@ -47,6 +50,39 @@ h1{
 }
 
 .link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#f32648, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.dream-big-background{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.dream-big-image{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.dream-big-image img{
+    width: 100%;
+}
+
+.dream-big-text{
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.download-resume{
     text-decoration: none;
     background-image: linear-gradient(#f32648, tomato);
     padding: 10px 40px;
